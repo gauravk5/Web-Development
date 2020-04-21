@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Layout</title>
+<style>
+html{
+scroll-behavior:smooth;
+}
+body{
+margin:0px;
+}
+.header{
+width:100%;
+height:200px;
+background-color:#A4CBEF;
+margin-bottom:20px;
+}
+.header img{
+margin-left:20px;
+margin-top:20px;
+float:left;
+}
+.header{
+float:left;
+text-align:center;
+line-height:15px;
+}
+.notic{
+float:left;
+width:100%
+
+}
+marquee{
+width:85%;
+float:left;
+}
+
+.section{
+width:20%;
+height:600px;
+background-color:#FFEEBB;
+float:left;
+overflow:auto;
+}
+.main{
+width:79%;
+height:auto;
+background-color:#4AB9AA;
+float:left;
+margin-left:5px;
+}
+table{
+background-color:white;
+}
+table, th, td{
+width:600px;
+    
+	  border-collapse:collapse;
+}
+tr:nth-child(even){
+background-color:#e1e1e1;
+}
+tr:hover{
+background-color:grey;
+}
+li{
+padding:10px;
+width:80%;
+border-bottom:2px dotted black;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+<img src="pu.jpg">
+<div class="heading">
+<h1 style="margin-top:30px">Punjabi University,Patiala</h1>
+<h2>(Established under Punjab Act No. 35 of 1961)</h2>
+<h2>ਪੰਜਾਬੀ ਯੂਨੀਵਰਸਿਟੀ, ਪਟਿਆਲਾ</h2>
+</div>
+</div>
+<div class="notic">
+<marquee direction="left"  bgcolor="white" loop="10" scrollamount="10"> ***** Now you can get immediate update about your exams and examination results on your Android smart phones immediately via Punjabi University Patiala Mobile app.  </marquee>
+
+
+<button onclick="#">Complete Notice</button>
+</div>
+<div class="section">
+<input id="1" type="text" name="stext" class="inp ui-autocomplete-input" placeholder="Quick Search Results here" style="min-width:270px" autocomplete="off">
+<ol>
+<li><a href="#">Dept.1 B.TECH</a></li>
+<li><a href="#">Dept.2 MSC </a></li>
+<li><a href="#">Dept.3 MSC PHY</a></li>
+<li><a href="#">Dept.4 PHD </a></li>
+<li><a href="#">Dept.5 M.TECH </a></li>
+<li><a href="#">Dept.6 B.S.E </a></li>
+<li><a href="#">Dept.7 M B A</a></li>
+<li><a href="#">Dept.8 B A</a></li>
+<li><a href="#">Dept.9 B.TECH</a></li>
+<li><a href="#">Dept.10 C.S.E</a></li>
+<li><a href="#">Dept.11 E.S.E</a></li>
+<li><a href="#">Dept.12 PYTHON </a></li>
+<li><a href="#">Dept.13 JAVA </a></li>
+<li><a href="#">Dept.14 M.TECH IN AI </a></li>
+<li><a href="#">Dept.15 B.TECH</a></li>
+</ol>
+
+</div>
+<div class="main">
+<p style=text-align:center;>Please Select the Course for result.</P>
+<h3 style=text-align:center;>General Abbreviations</h3>
+<center><table>
+<tr><th>PASS</th><td>A Candidate is pass when award is shown in the result field</td></tr>
+<tr><td colspan="2" align="center">	Only External Marks in Reappear subject is shown</td></tr>
+<tr><th>R</th><td>Re-appear in the paper given in the result field</td></tr>
+<tr><th>PRS</th><td>Previous result stand in the case of improvement candidate.</td></tr>
+<tr><th>RL-R</th><td>Result later on due to non confirmation of eligibility by the Registration Branch.</td></tr>
+<tr><th>RL-FEE</th><td>Result later on due to non-adjustment of fee accounts.</td></tr>
+<tr><th>RL- AD</th><td>Result later on due to awards dispute.</td></tr>
+<tr><th>RL- WRN</th><td>Result later on due to Wrong Roll.No.</td></tr>
+<tr><th>RL- AW</th><td>	Result later on for want of awards in certain papers.</td></tr>
+<tr><th>RL-Ee</th><td>Result later on for want of confirmation of eligibility by the Examination Branch.</td></tr>
+<tr><th>C.C</th><td>Candidature Cancelled</td></tr>
+<tr><th>RL-Lower</th><td>Result later on for want of declaration of result of lower examination</td></tr>
+<tr><th>(EX)</th><td>External Paper</td></tr>
+<tr><th>(INT)</th><td>Internal Paper</td></tr>
+<tr><th>(**)</th><td>(-2 means Award wanting),(-1 means Zero Marks)(-3 means Absent),(-9 option not adopted),(-4 means UMC)</td></tr>
+<tr><th>MARKS 0</th><td>Fail in said subject</td></tr>
+
+</center>
+</div>
+</body>
+</html>
